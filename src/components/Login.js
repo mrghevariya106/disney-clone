@@ -9,9 +9,10 @@ const Login = (props) => {
           <SignUp>READY 2 ENTERTAIN</SignUp>
           <Discription>
             Get Premier Access to Raya and the Last Dragon for an additional fee
-            with a Disney+ subscription. As of 03/26/21, the price of Disney+
-            and The Disney Bundle will increase by $1.
+            with a Disney+ subscription. As of 02/26/22, the price of Disney+
+            and The Disney Bundle will increase by $5.
           </Discription>
+          <CTALogoTwo src="/images/cta-logo-two.png" alt="Login" />
         </CTA>
         <BgImage />
       </Content>
@@ -91,6 +92,13 @@ const Discription = styled.p`
     font-size: 13px;
     margin: 0 0 24px;
     line-height: 1.5;
+`;
+
+const CTALogoTwo = styled.img`
+    /* max-width:600px; */
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: bottom;
 `;
 
 export default Login;
