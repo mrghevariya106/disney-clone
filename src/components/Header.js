@@ -129,7 +129,7 @@ const NavMenu = styled.div`
 `;
 
 const Login = styled.a`
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   letter-spacing: 1.5px;
   border: 1px solid #f9f9f9;
   padding: 8px 16px;
@@ -140,6 +140,7 @@ const Login = styled.a`
   &:hover {
     background-color: #f9f9f9;
     color: #000;
+    border-color: transparent;
   }
 `;
 
